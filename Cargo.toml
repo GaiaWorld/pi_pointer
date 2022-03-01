@@ -1,9 +1,13 @@
 [package]
 name = "pi_pointer"
 version = "0.1.0"
-authors = ["suncy <suncy@gmail.com>"]
-edition = "2018"
+authors = ["suncy <530739162@qq.com>"]
+edition = "2021"
+description = "Pointer, similar to arc and RC, but will allocate similar objects in a continuous space"
+repository = "https://github.com/GaiaWorld/pi_pointer.git"
+license = "MIT OR Apache-2.0"
+keywords = ["pi", "pi_pointer"]
 
 [dependencies]
-pi_slab = {path="../pi_slab"}
-lazy_static = "*"
+pi_slab = "0.1"
+lazy_static = "1.4"
